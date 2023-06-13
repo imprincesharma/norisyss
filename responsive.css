@@ -1,0 +1,150 @@
+@media screen and (max-width:767px){
+    *{
+        padding: 0;
+        margin: 0;
+        scroll-behavior: smooth;
+        background-repeat: no-repeat;
+        background-position-x: hidden;
+    }
+    .header{
+        background-color: white;
+        height: 160px;
+        position:fixed;
+        z-index: 1;
+        top: 0;
+    }
+ .navbar{
+    display: none;
+ }
+ #text{
+     position: absolute;
+     left: 48% !important;
+     top: 2% !important;
+    }
+    .logo{
+        /* display: none; */
+    position: absolute;
+    top: 25%;
+    right: 56% !important;
+    
+}
+.back{
+    /* display: none; */
+    height: 400px;
+    background-image: none;
+}
+.lg{
+   display: flex;
+   flex-direction: column;
+}
+.image{
+   position: absolute;
+   top: 16% !important;
+   /* box-shadow: 0px 0px 7px   grey; */
+}
+.image1{
+    position: absolute;
+    top: 94% !important;
+}
+.pp{
+    font-size: small;
+    color: #6c757d!important;
+    /* color: red !important; */
+    width: 400px !important;
+    position: relative;
+    right: 1% !important;
+    top: 40% !important;
+    margin-top: 63% !important;
+    right: 6% !important;
+}
+.heading1{
+    font-size:medium;
+    color: #6c757d!important;
+    width: 400px !important;
+    display: none
+}
+#a1{
+    width: 376px !important;
+    position: absolute !important;
+    top: 4% !important;
+    left: -6% !important;
+}
+#a2{
+    width: 387px !important;
+    position: absolute;
+    right: 14% !important;
+    top: -100% !important;
+}
+.para2{
+    font-size: small;
+    color: #6c757d!important;
+    width: 400px !important;
+    position: relative;
+    right: 10% !important;
+}
+.h5{
+    font-size:medium;
+    color: #6c757d!important;
+    width: 400px !important;
+    margin-left: -7% !important;
+
+}
+
+}
+@media screen and (max-width:767px){
+#norisys{
+    position: absolute;
+    top: 170% !important;
+    width: 400px !important;
+    animation-name: prince;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    display: none;
+}
+@keyframes prince {
+   from{
+    border-radius: 0%;
+   }  to{
+    border-radius: 40% !important;
+   } 
+}
+.pra{
+    position: absolute;
+    top: 220% !important;
+    left: 5% !important;
+    width: 420px !important;
+} 
+.princesharma{
+  
+   
+}
+.abc{
+    
+    height: 200px !important;
+}
+#pic{
+    position: absolute;
+    top: 290% !important;
+    height: 207px !important;
+    width: 350px;
+    margin-left: 44px;
+    top: 120% !important;
+    /* display: none; */
+}
+#cube{
+    position: absolute;
+    top: 280% !important;
+    display: none;
+}
+.square{
+    color: red !important;
+    margin-left: -7% !important;
+    margin-top: -1% !important;
+}
+.heading{
+    color: red !important;
+}
+.nor{
+    display: none;
+}
+}
